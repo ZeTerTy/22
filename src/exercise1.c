@@ -14,5 +14,5 @@ int main (int argc, char** argv) {
         sum += arr[i];
     }
 
-    printf("%.2f\n", sum / 10);
+    printf("%.2f\n", (sum+0.0000001) / 10);
 }
