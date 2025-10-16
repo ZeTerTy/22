@@ -9,6 +9,6 @@ int main (int argc, char** argv) {
     }
 
     for (int i = 9; i >= 0; i--) {
-        printf("%.1lf ", arr[i]);
+        printf("%.2lf ", arr[i]);
     }
 }
