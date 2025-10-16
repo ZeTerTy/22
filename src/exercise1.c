@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// task 1
-
 int main (int argc, char** argv) {
     double arr[10];
 
     for (int i = 0; i<10; i++) {
-        arr[i] = atof(argv[i + 1]);
-        printf("%f ", arr[i]);
+        scanf("%lf", &arr[i]);
     }
 
     double sum = 0;
@@ -17,7 +14,5 @@ int main (int argc, char** argv) {
         sum += arr[i];
     }
 
-    printf("%.2f", sum / 10);
+    printf("%.2f\n", sum / 10);
 }
-
-
