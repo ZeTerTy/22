@@ -1,4 +1,4 @@
-k#include "array_function.h"
+#include "array_function.h"
 #include <stdio.h>
 
 // 1
